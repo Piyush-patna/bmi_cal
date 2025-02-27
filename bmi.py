@@ -22,7 +22,7 @@ try:
             bmi= w/y2**2
         
    
-        st.write(f"your bmi is fitness = {bmi}")
+        st.write(f"your bmi is fitness = {bmi: .2f}")
         if bmi<18.5:
             st.info("underweight")
         elif bmi>=18.5 and bmi<25:
